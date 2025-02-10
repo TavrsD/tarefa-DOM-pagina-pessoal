@@ -1,0 +1,34 @@
+header{
+    height: 110px;
+    padding: 115px;
+    background-color: lightslategray;    
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    color: indigo;
+}
+
+h2{
+    
+}
+
+p{
+
+}
+
+nav{
+    background-color: rgb(199, 139, 255);
+}
+
+textarea{
+    resize: none;
+}
+
+#personalPhoto{
+    width: 150px;
+    border-radius: 50%;
+}
