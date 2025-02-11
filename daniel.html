@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Daniel Tavares Figueira</title>
 </head>
@@ -11,84 +12,92 @@
         <h1> Daniel Tavares Figueira</h1>
         <nav>
             <a href="./index.html">Home</a>
+            <a href="./index.html">Site</a>
+            <a href="./index.html">Blog</a>
         </nav>
     </header>
 
     <main>
         <section class="personal">
             <img src="https://avatars.githubusercontent.com/u/47503787?v=4" >
-            <p><strong>Oi! Eu sou Daniel, sou estudante de Sistemas de Informação na UFF.</strong><br>
-                Sou apaixonado por tecnologia e acredito que ela existe para resolver problemas e tornar a vida das pessoas mais simples. <br>
+            <div>
+                <h2>Oi! Eu sou Daniel, sou estudante de Sistemas de Informação na UFF.</h2>
+                <p>Sou apaixonado por tecnologia e acredito que ela existe para resolver problemas e tornar a vida das pessoas mais simples. <br>
                 Amo conhecer novos lugares, visitar pontos históricos do Rio, conhecer artistas independentes, sempre em busca de experiências que me conectem à música, dança e arte, áreas que acredito serem capazes de transformar a sociedade e nos permitir enxergar o mundo de maneiras diferentes. <br> 
                 Além disso, adoro estar com meus amigos — com eles, cada dia é uma nova aventura, como um grupo de RPG cheio de surpresas e experiências inesperadas!
-            </p>
+                </p>
+            </div>
         </section>
-        <h2>Meus Hobbies</h2>
-        <ul class="list">
-            <li>
-                <img src="" alt="">
-                <p>Fazer trihas</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Jogar tabetop games com meus amigos</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Descobrir novos restaurantes</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Testar novos serviços no meu homeserver</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Ir a bares de karaoke com meus amigos</p>
-            </li>
-        </ul>
-
-        <h2>Games Que Mais Gostei</h2>
-        <ol class="list">
-            <li>
-                <img src="" alt="">
-                <p>The Elder Scrools series</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>The Legend of Zelda series</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Souls series</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Counter Strike</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p>Final Fantasy XII</p>
-            </li>
-        </ol>
-        
-        <section>
+        <section class="curiosities">
+            <div>        
+                <h2>Meus Hobbies</h2>
+                    <ul class="list">
+                        <li>
+                            <img src="" alt="">
+                            <p>Fazer trihas</p>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                            <p>Jogar tabetop games com meus amigos</p>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                            <p>Descobrir novos restaurantes</p>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                            <p>Testar novos serviços no meu homeserver</p>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                            <p>Ir a bares de karaoke com meus amigos</p>
+                        </li>
+                    </ul>
+            </div>
+            <div>
+                <h2>Games Que Mais Gostei</h2>
+                <ol class="list">
+                    <li>
+                        <img class="listFigure" src="./skyrim.png" alt="">
+                        <p>The Elder Scrools series</p>
+                    </li>
+                    <li>
+                        <img class="listFigure" src="./legendOfZelda.jpg" alt="">
+                        <p>The Legend of Zelda series</p>
+                    </li>
+                    <li>
+                        <img class="listFigure" src="./darkSouls.jpg" alt="">
+                        <p>Souls series</p>
+                    </li>
+                    <li>
+                        <img class="listFigure" src="./CounterStrike2.png" alt="">
+                        <p>Counter Strike</p>
+                    </li>
+                    <li>
+                        <img class="listFigure" src="./finalFantasyXII.jpg" alt="">
+                        <p>Final Fantasy XII</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section class="FeedbackForm">
             <h2>Feedbacks</h2>
             <form>
-                <input type="text" placeholder="Nome Competo" required> <br>
-                <textarea placeholder="Feedback" cols="70" rows="10" required></textarea> <br>
+                <input class="inputs" type="text" placeholder="Nome Competo" required> <br>
+                <textarea class="inputs" placeholder="Feedback" required></textarea> <br>
                 <button type="submit" >Enviar</button>
             </form>
         </section>
     </main>
-    
-    <hr>
-   
+       
     <footer>
-        <nav>
-            <a href="https://github.com/TavrsD" target="_blank">GitHub</a>
-            <a href="https://instagram.com/TavrsD" target="_blank">Instagram</a>
-            <a href="https://linkedin.com/in/tavaresdf" target="_blank">LinkedIn</a>
-            <a href="./contatoDaniel.html">Contato</a>
+        <nav class="contacts">
+            <div>
+                <a href="https://github.com/TavrsD" target="_blank" class="fa fa-github"></a>
+                <a href="https://instagram.com/TavrsD" target="_blank"  class="fa fa-instagram"></a>
+                <a href="https://linkedin.com/in/tavaresdf" target="_blank"  class="fa fa-linkedin"></a>
+            </div>
+            <button type="button">Contato</button>
         </nav>
     </footer>
 </body>
