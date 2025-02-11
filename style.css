@@ -121,9 +121,10 @@ footer{
     background-color: #C4C4C4;    
 }
 
-.contacs{
+footer nav{
     display: flex;
     flex-direction: row;
+    gap: 15%;
 }
 
 .fa {
