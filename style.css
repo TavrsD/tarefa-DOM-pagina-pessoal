@@ -1,34 +1,67 @@
-header{
-    height: 110px;
-    padding: 115px;
-    background-color: lightslategray;    
-}
-
-body{
+* {
     margin: 0;
+    padding: 0;
+    font-family: monospace;
 }
 
 h1{
-    color: indigo;
+    font-size: 40px;
+    font-weight: 400;
+    color: #124E66;
 }
 
 h2{
-    
+    font-size: 24px;
+    font-weight: 400;
+    color: #123;
 }
 
 p{
-
+    font-size: 16px;
+    font-weight: 400;
+    color: #321;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5%;
+    background-color: #C4C4C4;    
 }
 
-nav{
-    background-color: rgb(199, 139, 255);
+header nav a {
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    transition: 2s;
+}
+
+.personal{
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+    
+}
+
+.personal img{
+    box-shadow: 4px 4px 4px 0px #00000040;
+    margin-right: 4%;
+    width: 15vw;
+    border-radius: 50%;
+}
+
+.list {
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 textarea{
     resize: none;
 }
 
-#personalPhoto{
-    width: 150px;
-    border-radius: 50%;
-}
