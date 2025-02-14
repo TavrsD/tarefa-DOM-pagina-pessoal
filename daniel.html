@@ -83,11 +83,12 @@
         <section class="FeedbackForm">
             <h2>Feedbacks</h2>
             <form>
-                <input class="inputs" type="text" placeholder="Nome Competo" required> <br>
-                <textarea class="inputs" placeholder="Feedback" required></textarea> <br>
-                <button type="submit" >Enviar</button>
+                <input class="inputs" id="name" type="text" placeholder="Nome Competo" required> <br>
+                <textarea class="inputs" id="feecback-message" placeholder="Feedback" required></textarea> <br>
+                <button id="send-feedback">Enviar</button>
             </form>
         </section>
+        <section class="FeedbackMessages"></section>
     </main>
        
     <footer>
@@ -96,7 +97,8 @@
             <a href="https://instagram.com/TavrsD" target="_blank"  class="fa fa-instagram"></a>
             <a href="https://linkedin.com/in/tavaresdf" target="_blank"  class="fa fa-linkedin"></a>
         </nav>
-        <button id="Contato" type="button">Entrar em Contato</button>
+        <button id="Contato">Entrar em Contato</button>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
