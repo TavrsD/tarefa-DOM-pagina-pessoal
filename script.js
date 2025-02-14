@@ -15,4 +15,4 @@ function enviarFeedback() {
 }
 
 let feedbackButton = document.querySelector("#send-feedback");
-button.addEventListener("click", enviarFeedback);
+feedbackButton.addEventListener("click", enviarFeedback);
